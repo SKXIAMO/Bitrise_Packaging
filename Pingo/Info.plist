@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>bOHxEN1QJec4TQhH7ZpAhzRjp8uTdd.ttf</string>
+		<string>nETRk4KdJMVhxDiExfM2mrJG.ttf</string>
+		<string>dePPOKFwX5RF3kEO4VtLHUjEXD3Y.ttf</string>
+		<string>kZezZMDmGgFay6MhS.ttf</string>
+		<string>zhdRQjLv13xVP2LhOFeFlhFP6w0upom.ttf</string>
+		<string>hBJ82YGywH3xFd9T0xeh.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+  	<key>NSCameraUsageDescription</key>
+    <string>This app needs camera access to capture landscapes, portraits, and videos. Your photos and videos can decorate your profile or share with friends. They're securely stored on your device and only shared with your permission. Privacy and security are protected.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app needs microphone access for recording voice messages and sharing audio. Audio stays on your device unless you share. Privacy is our priority.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app needs access to your photo library for sharing memorable photos/videos. It stays on your device unless you share. Access is for easy sharing and is privacy-protected.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app needs location access for sharing, discovering events, and using location-based features. Location data is used responsibly with your consent. Privacy and security are our priorities.</string>
+</dict>
+</plist>
